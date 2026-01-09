@@ -350,7 +350,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             <h2>🔧 Configuration:</h2>
             <ul>
-                <li>Bot Token: <?php echo defined('BOT_TOKEN') && BOT_TOKEN !== 'Place_Your_Token_Here' ? '✅ Set' : '❌ Not set'; ?></li>
+                <li>Bot Token: <?php echo defined('BOT_TOKEN') && BOT_TOKEN !== '8573693740:AAGjxGIdD-4hSZf1Vxr6rRme7_3xhtGb8GY' ? '✅ Set' : '❌ Not set'; ?></li>
                 <li>Users file: <?php echo file_exists(USERS_FILE) ? '✅ Exists' : '❌ Missing'; ?></li>
                 <li>Error log: <?php echo file_exists(ERROR_LOG) ? '✅ Exists' : '❌ Missing'; ?></li>
                 <li>Webhook URL: <?php echo !empty(WEBHOOK_URL) ? '✅ ' . WEBHOOK_URL : '❌ Not configured'; ?></li>
@@ -368,3 +368,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 ?>
+
