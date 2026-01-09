@@ -343,7 +343,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h2>📋 Setup Instructions:</h2>
             <ol>
                 <li>Replace <code>8573693740:AAGjxGIdD-4hSZf1Vxr6rRme7_3xhtGb8GY</code> in index.php with your bot token</li>
-                <li>Set webhook URL: <code>https://TrumpUncleji_bot.onrender.com/?setup=1&token=8573693740:AAGjxGIdD-4hSZf1Vxr6rRme7_3xhtGb8GY&url=https://your-app.onrender.com/</code></li>
+                <li>Set webhook URL: <code>https://TrumpUncleji_bot.onrender.com/?setup=1&token=8573693740:AAGjxGIdD-4hSZf1Vxr6rRme7_3xhtGb8GY&url=https://TrumpUncleji_bot.onrender.com/</code></li>
                 <li>Remove webhook: <code>https://TrumpUncleji_bot.onrender.com/?setup=1&token=8573693740:AAGjxGIdD-4hSZf1Vxr6rRme7_3xhtGb8GY</code></li>
                 <li>Health check: <code>https://TrumpUncleji_bot.onrender.com/health</code></li>
             </ol>
@@ -368,4 +368,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 ?>
+
 
