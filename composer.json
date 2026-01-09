@@ -1,0 +1,25 @@
+{
+    "name": "telegram-bot/webhook",
+    "description": "PHP Telegram Bot with webhook for Render.com",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "chmod -R 755 .",
+            "chown -R www-data:www-data ."
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
